@@ -1,0 +1,26 @@
+.header-menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+}
+.side-news{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    gap: 10px;
+}
+.side-news:last-of-type{
+    flex-direction: row-reverse;
+}
+.other-news{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
