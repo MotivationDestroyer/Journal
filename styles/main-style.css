@@ -1,3 +1,12 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background-color: rgba(235, 133, 0, 0.452);
+}
+h1{
+    font-weight: bold;
+}
 .header-menu{
     list-style: none;
     display: flex;
@@ -23,4 +32,35 @@ a:hover{
 .other-news{
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+.important-news::after{
+    content: "";
+    display: block;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: #DBDBDB;
+    bottom: 0;
+}
+.other-news-content::before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: #DBDBDB;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(235, 133, 0, 0.452);
+}
+.about-us{
+    display: flex;
+    list-style-type: none;
+}
+.about-us li{
+    margin-right: 20px;
 }
