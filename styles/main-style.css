@@ -3,6 +3,7 @@ body{
 }
 header{
     background-color: rgba(235, 133, 0, 0.452);
+    padding-bottom: 1vw;
 }
 h1{
     font-weight: bold;
@@ -19,6 +20,16 @@ a{
 }
 a:hover{
     color: red;
+}
+.news{
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+}
+.main-news{
+    display: flex;
+    gap: 4vw;
+    flex-direction: column;
 }
 .side-news{
     display: flex;
